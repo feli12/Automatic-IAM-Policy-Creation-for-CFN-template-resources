@@ -2,11 +2,11 @@
 # Hackathon project
 
 
-import json
-import boto3
-from botocore.exceptions import ClientError
+    import json
+    import boto3
+    from botocore.exceptions import ClientError
 
-def lambda_handler(event, context):
+    def lambda_handler(event, context):
     
     s3 = boto3.resource('s3')
     obj=s3.Object('buxbuxbuxbbux13','trythis.json')
